@@ -13,3 +13,13 @@ spark
 ```
 
 ![img.png](img.png)
+
+```python
+df = spark.createDataFrame(
+    [{"Google": "Colab", "Spark": "Scala"}, {"Google": "Dataproc", "Spark": "Python"}]
+)
+df.show()
+
+```
+
+![img_1.png](img_1.png)
